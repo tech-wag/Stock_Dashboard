@@ -1,0 +1,30 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pdb
+.pytest_cache/
+.mypy_cache/
+
+# Local data and logs
+*.sqlite3
+*.log
+
+# Streamlit and local app state
+.streamlit/
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
